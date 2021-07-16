@@ -1,0 +1,15 @@
+Sub selecionandoVariasCelulas1()
+
+    Range("A1:D10").Select
+    
+End Sub
+
+Sub selecionandoVariasCelulas2()
+    Range("B2, D2, F2").Select
+    
+End Sub
+
+Sub selecionandoVariasCelulas3()
+    Range("B2:D2, F2:H15").Select
+    
+End Sub
