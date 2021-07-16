@@ -1,11 +1,14 @@
 Sub selecionarCedulaModelo1()
+'maneira de selecionar uma celula
 Range("C2").Select
 
 End Sub
 
 
 Sub selecionarCedulaModelo2()
+'primeiro a gente coloca a linha e depois a coluna
 Cells(2, 5).Select
 
 
 End Sub
+
