@@ -1,0 +1,11 @@
+Sub selecionarCedulaModelo1()
+Range("C2").Select
+
+End Sub
+
+
+Sub selecionarCedulaModelo2()
+Cells(2, 5).Select
+
+
+End Sub
