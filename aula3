@@ -1,0 +1,21 @@
+Sub selecionarPlanilhaInteira()
+' seleciona e ativa a sheet inteira
+
+    Cells.Select
+
+
+End Sub
+
+Sub selecionarLinhaInteira()
+
+' Rows é linha
+Rows(5).Select
+
+End Sub
+
+Sub selecionarColuna()
+
+' Columns é coluna
+Columns(3).Select
+
+End Sub
