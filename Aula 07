@@ -1,0 +1,36 @@
+Sub estilosCelula()
+    
+    ' no excel em portugues os parametros tambem sao em portugues
+    Range("A5").Style = "Saída"
+    
+End Sub
+
+Sub quebraTexto()
+
+'quebra de texto automatica
+
+    Range("A5").WrapText = True
+    Range("A5").WrapText = False
+    
+End Sub
+
+Sub adicionarPlanilha()
+    
+    ' adiciona uma nova planilha
+    Sheets.Add
+    
+End Sub
+
+Sub renomearPlanilha()
+    ' renomear planilhas
+    ActiveSheet.Name = "Exemplo aula 1"
+
+End Sub
+
+
+Sub adicionarPlanilhaNomeada()
+    Dim contador As Integer
+    contador = 1
+    Sheets.Add.Name = contador
+    contador = contador + 1
+End Sub
