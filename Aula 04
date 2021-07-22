@@ -1,0 +1,24 @@
+Sub selecionarUltimaLinhaParaBaixo()
+
+    ' o codigo abaixo seleciona a ultima linha da tabela
+    Range("A1").End(xlDown).Select
+
+
+End Sub
+
+Sub selecionarUltimaCelulaADireita()
+
+    ' o codigo abaixo seleciona a ultima a direita
+    
+    Range("A1").End(xlToRight).Select
+    
+
+End Sub
+
+
+Sub selecionaVoltaPrimeiraCelula()
+
+    'seleciona a primeira celula
+    Range("A1").CurrentRegion.Select
+    
+End Sub
