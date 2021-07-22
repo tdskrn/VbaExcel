@@ -1,0 +1,27 @@
+Sub fontSize()
+' este codigo aumenta o tamanho da fonte
+    Range("A1").Font.Size = 12
+    Range("A1").Font.Size = 20
+    Range("A1").Font.Size = 32
+    Range("A1").Font.Size = 42
+    Range("A1").Font.Size = 52
+    
+End Sub
+
+Sub fonteNegrito()
+    ' propriedade ativada com valor booleano
+    Range("A1").Font.Bold = True
+    
+End Sub
+
+Sub fonteItalico()
+
+    Range("A1").Font.Italic = True
+    
+End Sub
+
+Sub fonteUnderline()
+
+    Range("A1").Font.Underline = True
+    
+End Sub
