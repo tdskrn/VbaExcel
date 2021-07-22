@@ -1,0 +1,9 @@
+Sub formatandoRegiaoSelecionada()
+
+    Selection.Font.Name = "Calibri" ' nome fonte
+    Selection.Font.Bold = True ' negrito
+    Selection.Font.Italic = True ' italic
+    Selection.Interior.Color = vbGreen ' cor celula
+    
+    
+End Sub
