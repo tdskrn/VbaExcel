@@ -34,3 +34,21 @@ Sub adicionarPlanilhaNomeada()
     Sheets.Add.Name = contador
     contador = contador + 1
 End Sub
+
+
+Sub adicionarDepois()
+Sheets.Add after:=Sheets("Planilha1")
+
+
+End Sub
+
+Sub adicionarAntes()
+
+    Sheets.Add before:=Sheets("Planilha2")
+    
+End Sub
+
+Sub adicionarSheetsFinal()
+
+    Sheets.Add after:=Sheets(Sheets.Count)
+End Sub
