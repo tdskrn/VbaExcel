@@ -1,0 +1,46 @@
+Sub copiarEColar()
+    ' codigo que copiar e colar
+    Range("C4").Copy Range("C5")
+
+End Sub
+
+
+Sub recortarEColar()
+    ' codigo que recorta e cola
+    Range("C4").Cut Range("C8")
+        
+End Sub
+
+
+Sub copiarColarColuna()
+
+    Range("C:C").Copy Range("E:E")
+                        
+End Sub
+
+Sub recortarColarColuna()
+
+    Range("C:C").Cut Range("E:E")
+
+End Sub
+
+Sub copiarColarLinha()
+
+    Range("4:4").Copy Range("6:6")
+
+End Sub
+
+Sub copiarRecortarLinha()
+
+    Range("4:4").Cut Range("6:6")
+
+End Sub
+
+Sub copiarDeUmaPlanilhaPraOutra()
+
+' tem que usar WorkSheets
+
+    Worksheets("Planilha1").Range("C5").Copy Worksheets("Planilha2").Range("A5")
+    
+
+End Sub
