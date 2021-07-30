@@ -1,0 +1,31 @@
+Sub clear()
+    ' o clear limpa tudo, formatacoes, formulas, fontes, tamanhos entre outros
+    Range("C4").clear
+
+End Sub
+
+Sub clearContents()
+    ' limpa apenas o texto
+    Range("C5").clearContents
+End Sub
+
+
+Sub clearFormats()
+    ' limpa somente a formatação
+    
+    Range("C5").clearFormats
+    
+
+End Sub
+
+Sub selectionClear()
+    ' limpa a selecao atual
+    Selection.clear
+    
+End Sub
+
+Sub clearSheet()
+    ' limpa todas as celulas de uma determinada planilha
+    Sheets("Planilha8").Cells.clear
+
+End Sub
