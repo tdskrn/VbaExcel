@@ -1,0 +1,11 @@
+Sub esconderAbas()
+    ' codigo que esconde a aba
+    ActiveWindow.DisplayWorkbookTabs = False
+    
+End Sub
+
+Sub mostrarAbas()
+    ' codigo que exibe novamente a aba a aba
+    ActiveWindow.DisplayWorkbookTabs = True
+    
+End Sub
