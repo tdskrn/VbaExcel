@@ -1,0 +1,40 @@
+Sub mergeCells()
+
+    Range("D5:F5").Merge
+End Sub
+
+Sub unMerge()
+
+    Range("D5:F5").unMerge
+End Sub
+
+Sub mergeRows()
+
+    Range("2:8").Merge
+End Sub
+
+Sub unMergeRows()
+
+    Range("2:8").unMerge
+End Sub
+
+Sub mergeColumns()
+
+    Range("A:D").Merge
+End Sub
+
+Sub unMergeColumns()
+
+    Range("A:D").unMerge
+End Sub
+
+Sub mergeCenterHorizontalVertical()
+
+
+    Range("B5:F5").Merge
+    Range("B5:F5").HorizontalAlignment = xlCenter
+    Range("B5:F5").VerticalAlignment = xlCenter
+    
+End Sub
+
+
